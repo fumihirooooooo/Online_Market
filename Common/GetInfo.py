@@ -1,4 +1,4 @@
-from Models.Models import GetInfoModel
+from Models.Models import AmazonModel
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import chromedriver_binary
@@ -10,7 +10,7 @@ from time import sleep
 
 
 class GetInfo:
-    def __init__(self, data: GetInfoModel):
+    def __init__(self, data: AmazonModel):
         self.data = data
 
     def get_info_data(self):

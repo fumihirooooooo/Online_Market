@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 @dataclass
-class GetInfoModel:
+class AmazonModel:
     url:str
     word:str
     search_tag:str
